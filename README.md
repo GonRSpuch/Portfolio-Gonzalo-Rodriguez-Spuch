@@ -10,13 +10,14 @@
 - [2. Project Goals](#2-project-goals)
 - [3. Dataset Structure](#3-dataset-structure)
 - [4. Executive Summary](#4-executive-summary)
-- [5. Dashboard Analysis](#5-dashboard-analysis)
+- [5. Dashboard Preview](#5-dashboard-preview)
+- [6. Dashboard Analysis](#6-dashboard-analysis)
   - [a. Sales Performance](#a-sales-performance)
   - [b. Product Profitability](#b-product-profitability)
-- [6. Key Performance Indicators](#6-key-performance-indicators)
-- [7. Business Questions](#7-business-questions)
-- [8. Technical Details](#8-technical-details)
-- [9. Caveats and Assumptions](#9-caveats-and-assumptions)
+- [7. Key Performance Indicators](#7-key-performance-indicators)
+- [8. Business Questions](#8-business-questions)
+- [9. Technical Details](#9-technical-details)
+- [10. Caveats and Assumptions](#10-caveats-and-assumptions)
 
 ---
 
@@ -217,7 +218,22 @@ The dashboard is intended to support exploratory analysis and demonstrate how st
 
 ---
 
-## 5. Dashboard Analysis
+## 5. Dashboard Preview
+
+The following image presents an overview of the two Power BI dashboard pages developed for this project.
+
+![Sales Performance and Product Profitability - Power BI Dashboard Preview](Dashboards-Portfolio.png)
+
+The report includes two complementary analytical views:
+
+- **Sales Performance:** Focuses on sales trends, geographic performance, product categories, and sales volume.
+- **Product Profitability:** Examines gross profit by product category, top-performing products, and the relationship between sales and product costs.
+
+Both dashboards use interactive visualizations and key performance indicators to present business information in a clear and structured format.
+
+---
+
+## 6. Dashboard Analysis
 
 ### a. Sales Performance
 
@@ -302,7 +318,7 @@ The results should be interpreted alongside gross profit, since high sales alone
 
 ---
 
-## 6. Key Performance Indicators
+## 7. Key Performance Indicators
 
 The dashboard uses DAX measures to calculate the main business indicators.
 
@@ -359,7 +375,7 @@ These measures provide a reusable foundation for the dashboard calculations and 
 
 ---
 
-## 7. Business Questions
+## 8. Business Questions
 
 The dashboard is designed to help explore the following questions:
 
@@ -383,7 +399,7 @@ These questions provide a starting point for identifying trends and potential ar
 
 ---
 
-## 8. Technical Details
+## 9. Technical Details
 
 ### Tools and Technologies
 
@@ -407,7 +423,7 @@ The project follows a structured business intelligence workflow:
 
 ---
 
-## 9. Caveats and Assumptions
+## 10. Caveats and Assumptions
 
 - The analysis is based on the structure and contents of the source dataset. Results should be interpreted within that context.
 - Total Sales represents the sum of the `Sales Amount` field in the sales table.
@@ -421,7 +437,7 @@ The project follows a structured business intelligence workflow:
 
 ---
 
-**Author:** Data Analytics Portfolio Project
+**Author:** Data Analytics Portfolio Project- Gonzalo Martin Rodriguez Spuch
 
 **Tools:** Power BI | Power Query | DAX
 
